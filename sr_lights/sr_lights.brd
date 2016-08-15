@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -67,7 +67,7 @@
 <hole x="3.81" y="3.81" drill="3.2"/>
 <hole x="74.93" y="60.96" drill="3.2"/>
 <dimension x1="0" y1="64.76" x2="0" y2="0" x3="0" y3="32.38" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="64.76" x2="78.41" y2="64.76" x3="39.205" y3="64.76" textsize="1.778" layer="20"/>
+<dimension x1="0" y1="64.76" x2="78.41" y2="64.76" x3="39.205" y3="64.76" textsize="1.778" layer="47"/>
 </plain>
 <libraries>
 <library name="pinhead">
