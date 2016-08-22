@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -11357,6 +11357,84 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="we-transistor">
+<description>Transistors, Fets...</description>
+<packages>
+<package name="SOT23">
+<smd name="3" x="1.1" y="0" dx="0.9" dy="1.3" layer="1" roundness="10" rot="R270"/>
+<smd name="2" x="-1.1" y="-0.95" dx="0.9" dy="1.3" layer="1" roundness="10" rot="R270"/>
+<smd name="1" x="-1.1" y="0.95" dx="0.9" dy="1.3" layer="1" roundness="10" rot="R270"/>
+<text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<wire x1="0.65" y1="-1.4" x2="-0.65" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-0.65" y1="-1.4" x2="-0.65" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-0.65" y1="1.4" x2="0.65" y2="1.4" width="0.127" layer="21"/>
+<wire x1="0.65" y1="1.4" x2="0.65" y2="-1.4" width="0.127" layer="21"/>
+<rectangle x1="-1.325" y1="0.725" x2="-0.725" y2="1.175" layer="21"/>
+<rectangle x1="-1.325" y1="-1.175" x2="-0.725" y2="-0.725" layer="21"/>
+<rectangle x1="0.725" y1="-0.225" x2="1.325" y2="0.225" layer="21" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MOSFET_P-CHN">
+<text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="-1.778" y1="0.762" x2="-1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="-1.778" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="3.175" x2="-1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-1.778" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-1.905" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.508" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-0.762" x2="0.762" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-0.508" x2="1.27" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.508" x2="1.778" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-0.508" x2="2.032" y2="-0.254" width="0.1524" layer="94"/>
+<circle x="0" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="0" y="2.54" radius="0.3592" width="0" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="1.27" y="-0.508"/>
+<vertex x="1.778" y="0.254"/>
+<vertex x="0.762" y="0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0" y="0"/>
+<vertex x="-1.016" y="-0.762"/>
+<vertex x="-1.016" y="0.762"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOSFET-P" prefix="T" uservalue="yes">
+<description>P-Channel MOSFET (e.g.  IRLML6402)</description>
+<gates>
+<gate name="T" symbol="MOSFET_P-CHN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SOT23" package="SOT23">
+<connects>
+<connect gate="T" pin="D" pad="3"/>
+<connect gate="T" pin="G" pad="1"/>
+<connect gate="T" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11412,6 +11490,7 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="KOSMODROM" value="ECAP-RD-470mkf - 10v"/>
 </part>
 <part name="C2" library="eagle-ltspice" deviceset="C" device="" value="100nF"/>
+<part name="Q1" library="we-transistor" deviceset="MOSFET-P" device="-SOT23" value="IRLML2244TRPbF"/>
 </parts>
 <sheets>
 <sheet>
@@ -11438,7 +11517,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="134.62" y1="81.28" x2="134.62" y2="0" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="182.88" y1="71.12" x2="182.88" y2="0" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="182.88" y1="0" x2="231.14" y2="0" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="231.14" y1="0" x2="231.14" y2="71.12" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="231.14" y1="71.12" x2="182.88" y2="71.12" width="0.1524" layer="97" style="shortdash"/>
 <text x="228.6" y="73.66" size="1.778" layer="97" rot="R180">POWER</text>
 <text x="175.26" y="83.82" size="1.778" layer="97" rot="R180">EXPANTION_BRD_CON</text>
@@ -11446,6 +11524,12 @@ Source: AVX .. aphvc.pdf</description>
 <text x="142.24" y="157.48" size="1.778" layer="97" rot="MR180">SHIFT_REGISTER</text>
 <text x="2.54" y="157.48" size="1.778" layer="97" rot="MR180">LIGHT_SITCHES</text>
 <text x="71.12" y="83.82" size="1.778" layer="97" rot="R180">LIGHTS_CON</text>
+<wire x1="231.14" y1="71.12" x2="231.14" y2="0" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="231.14" y1="0" x2="256.54" y2="0" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="256.54" y1="0" x2="256.54" y2="71.12" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="256.54" y1="71.12" x2="231.14" y2="71.12" width="0.1524" layer="97" style="shortdash"/>
+<text x="254" y="76.2" size="1.778" layer="97" rot="R180">REVERSE PWR
+PROTECTION</text>
 </plain>
 <instances>
 <instance part="LOGIC_OUT" gate="A" x="165.1" y="53.34" rot="MR270"/>
@@ -11489,6 +11573,7 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="KOSMODROM" x="198.12" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="210.82" y="45.72"/>
+<instance part="Q1" gate="T" x="243.84" y="38.1"/>
 </instances>
 <busses>
 <bus name="SR_SIGNAL:RCK,SCLR,SCK,SI[0..1],Q[0..7]">
@@ -11501,13 +11586,15 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="144.78" y1="73.66" x2="96.52" y2="73.66" width="0.762" layer="92"/>
 </segment>
 </bus>
-<bus name="OUTS:LI[0..7],VCC1,VCC2,GND">
+<bus name="OUTS:LI[0..7],VCC1,VCC2,GND,VCC2_RAW">
 <segment>
 <wire x1="5.08" y1="132.08" x2="5.08" y2="73.66" width="0.762" layer="92"/>
 <wire x1="5.08" y1="73.66" x2="5.08" y2="5.08" width="0.762" layer="92"/>
 <wire x1="5.08" y1="5.08" x2="190.5" y2="5.08" width="0.762" layer="92"/>
 <wire x1="5.08" y1="73.66" x2="73.66" y2="73.66" width="0.762" layer="92"/>
 <wire x1="190.5" y1="5.08" x2="190.5" y2="66.04" width="0.762" layer="92"/>
+<wire x1="190.5" y1="5.08" x2="231.14" y2="5.08" width="0.762" layer="92"/>
+<wire x1="231.14" y1="5.08" x2="231.14" y2="66.04" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -11721,10 +11808,12 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="EXT_PWR_IN" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="17.78" x2="116.84" y2="5.08" width="0.1524" layer="91"/>
+<label x="116.84" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EXT_PWR_OUT" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="17.78" x2="165.1" y2="5.08" width="0.1524" layer="91"/>
+<label x="165.1" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="142.24" y1="5.08" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
@@ -11738,7 +11827,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="111.76" y1="55.88" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="63.5" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="5.08" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
-<label x="93.98" y="7.62" size="1.778" layer="95" rot="MR0"/>
+<label x="93.98" y="12.7" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -11755,6 +11844,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="190.5" y1="15.24" x2="198.12" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="15.24" x2="198.12" y2="17.78" width="0.1524" layer="91"/>
 <label x="193.04" y="12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="T" pin="G"/>
+<wire x1="238.76" y1="35.56" x2="231.14" y2="35.56" width="0.1524" layer="91"/>
+<label x="233.68" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SI0" class="0">
@@ -12024,18 +12118,21 @@ Source: AVX .. aphvc.pdf</description>
 <label x="38.1" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="EXT_PWR_IN" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="17.78" x2="114.3" y2="5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="EXT_PWR_OUT" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="17.78" x2="162.56" y2="5.08" width="0.1524" layer="91"/>
+<label x="162.56" y="7.62" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="+"/>
 <wire x1="198.12" y1="27.94" x2="198.12" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="27.94" x2="190.5" y2="27.94" width="0.1524" layer="91"/>
 <label x="193.04" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="T" pin="S"/>
+<wire x1="243.84" y1="33.02" x2="243.84" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="30.48" x2="243.84" y2="30.48" width="0.1524" layer="91"/>
+<label x="233.68" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC1" class="2">
@@ -12044,7 +12141,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="LOGIC_IN" gate="A" pin="1"/>
 <wire x1="109.22" y1="55.88" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="60.96" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
-<label x="96.52" y="7.62" size="1.778" layer="95"/>
+<label x="96.52" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="5.08" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
@@ -12068,9 +12165,27 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="210.82" y="50.8"/>
 </segment>
 </net>
+<net name="VCC2_RAW" class="0">
+<segment>
+<pinref part="Q1" gate="T" pin="D"/>
+<wire x1="243.84" y1="43.18" x2="231.14" y2="43.18" width="0.1524" layer="91"/>
+<label x="233.68" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="EXT_PWR_IN" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="17.78" x2="114.3" y2="5.08" width="0.1524" layer="91"/>
+<label x="114.3" y="7.62" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
