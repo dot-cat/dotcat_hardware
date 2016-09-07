@@ -11412,7 +11412,7 @@ at 30/07/2012 17:45:58</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="power" width="0.381" drill="0">
+<class number="1" name="power" width="1.27" drill="0">
 </class>
 <class number="2" name="low_power" width="0.127" drill="0">
 </class>
@@ -12093,7 +12093,7 @@ PROTECTION</text>
 <wire x1="304.8" y1="104.14" x2="289.56" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VCC2_RAW" class="0">
+<net name="VCC2_RAW" class="1">
 <segment>
 <pinref part="Q1" gate="T" pin="D"/>
 <wire x1="264.16" y1="43.18" x2="251.46" y2="43.18" width="0.1524" layer="91"/>
