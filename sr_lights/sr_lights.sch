@@ -11443,9 +11443,9 @@ Source: AVX .. aphvc.pdf</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="power" width="0.381" drill="0">
+<class number="1" name="power" width="1.27" drill="0">
 </class>
-<class number="2" name="low_power" width="0.127" drill="0">
+<class number="2" name="low_power" width="1.27" drill="0">
 </class>
 </classes>
 <parts>
