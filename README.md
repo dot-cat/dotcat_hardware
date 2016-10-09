@@ -1,2 +1,2 @@
 # shp_hardware
-hardware designs for Smart Home Project
+hardware designs for Creative Home Project
